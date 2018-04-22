@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header start*/
+header{
+  background-color: #121B2A;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.nav {
+    width: 60%;
+    float: right;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+}
+.nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    margin-top: 40px;
+    color: white;
+    transition: .5s;
+    font-family: Century Gothic;
+}
+.nav ul li:last-child a{
+    padding-right: 0;
+}
+.nav ul li a:hover{
+    color: #0076BC;
+}
+/*banner start*/
+.banner{
+    background-image: url(../CSS/banner.jpg); 
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    font-family: Century Gothic;
+    overflow: hidden;
+}
+.banner_content {
+    width: 50%;
+    margin-top: 120px;
+}
+.banner_content h2{
+    font-size: 40px;
+    color: #FEFEFE;
+}
+.banner_content h1{
+    font-size: 50px;
+    color: #0274BA;
+}
+.banner_content p{
+    font-size: 20px;
+    color: #FFFFFD;  
+}
+.banner_content button{
+    font-size: 15px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    color: #5A5A5A;
+    padding: 8px; 35px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: white;
+    opacity: .5;
+}
+/*banner end*/
+
+/*service start*/ 
+.service{
+    background-color: #121B2C;
+    overflow: hidden;
+}
+.wrapper_two{
+    width: 85%;
+    border: 1px solid red;
+    margin: 0 auto;
+    border: none;
+}
+.services{
+    overflow: hidden;
+    padding: 50px 0px;
+}
+.single{
+    float: left;
+    width: 30%;
+    border-right: 1px solid white;
+    padding: 10px 26px;
+}
+.single:last-child{
+    border: none;
+}
+.single_header{
+    overflow: hidden;
+}
+.single_logo{
+    width: 20%;
+    float: left;
+}
+.single_logo img{
+    width: 100%;
+}
+
+.single_text{
+    width: 70%;
+    float: left;
+    padding: 10px 0;
+}
+.para_one{
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: Century Gothic;
+}
+.para_two{
+    font-size: 25px;
+    color: #0177BD;
+    font-family: Century Gothic;
+}
+.single_content{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Century Gothic;
+} 
+/*service end*/
+
+/*contact start*/
+.contact{
+    background-color: #040811;
+    overflow: hidden;
+    padding: 70px 0px;
+}
+.wrapper_three{
+    width: 80%;
+    border: 1px solid red;
+    margin: 0 auto;
+    border: none;
+}
+.contact_us{
+    overflow: hidden
+}
+.single_two{
+    float: left;
+    width: 30%;
+    border: 1px solid white;
+    border: none;
+}
+.single_two_header{
+    overflow: hidden;
+}
+.single_two_text1{
+    width: 20%;
+    float: left;
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: Century Gothic;
+}
+.single_two_text2{
+    width: 65%;
+    float: left;
+    font-size: 22px;
+    color: #0075BA;
+    font-family: Century Gothic;
+}
+.single_two_content{
+    font-size: 14px;
+    color: #95979C;
+    font-family: Century Gothic;
+    margin-top: 15px;
+}
+.para_six{
+    margin-top: 15px;
+}
+.para_eight{
+    margin-top: 15px;
+}
+.single_two_text3{
+    width: 27%;
+    float: left;
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: Century Gothic;
+}
+/*contact end*/
+
+/*footer start*/
+footer{
+    background-color: #121B2C;
+}
+.wrapper_four {
+    width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 130px;
+}
+.nav_two {
+    width: 55%
+}
+.nav_two ul {
+    float: left;
+}
+.nav_two ul li{
+    float: left;
+    list-style: none;
+}
+.nav_two ul li a{
+    padding: 15px 8px;
+    display: block;
+    margin-top: 10px;
+    color: white;
+    transition: .5s;
+    font-family: Century Gothic;
+}
+.nav_two ul li a:hover{
+    color: #0076BC;
+}
+.logo2{
+    width: 20%;
+    float: right;
+    margin-top: 8px;
+}
+.nav_two_content{
+    width: 80%;
+    float: left;
+    font-family: Century Gothic;
+    color: white;
+    padding-left: 10px;
+}
+/*footer end*/
